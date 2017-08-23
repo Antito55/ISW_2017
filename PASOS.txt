@@ -1,0 +1,15 @@
+Breve resumen de los pasos para crear un repositorio:
+
+1. Descargar git para windows (http://msysgit.github.io/)
+2. Crear una cuenta en https://github.com/ o https://bitbucket.org/
+3. Crear un repositorio en bitbucket
+4. Crear un repositorio local
+5. Abrir el gitbash, introducir los comandos:
+		cd <ruta del repositorio local>
+		git init
+		git remote add origin 
+		git status
+		git add .
+		git commit -m "Primera Version del Repositorio"
+		git push -u origin master
+6. Podemos visualizar en https://bitbucket.org/diegocabj10/ingenieria_de_software_2016/src nuestro repositorio
