@@ -4,9 +4,9 @@ Criterios para la generacion de la linea base:
 #
 El presente documento describe los criterios de identificacion para los items que van a componer la linea base a lo largo del cursado de la materia Ingenieria de Software.
 - Los items de configuracion que integren una linea base, seran aquellos documentos formalmente diseñados y corregidos, que pasen por un proceso de revision por parte de los integrantes del poyecto para garantizar que se corresponde con una version estable del mismo.
-- Ciertos items que van a componer la linea base, seran aquellos que van a ir cambiando a lo largo del cursado, como por ejemplo lo seran los resumenes para los parciales o las anotaciones que se iran tomando en el transcurso del cursado.
--Los items de los trabajos practicos a entregar tambien van a pertenecer a la linea base, ya que los vamos a ir trabajando entre todos los integrantes del grupo.
-- Las resoluciones de los simulacros de parciales tambien seran integrados a la linea base, porque son elementos críticos para la aprobación de la materia.
+- Un criterio de selección sera aquellos items que van a ir siendo modificados a lo largo del cursado, como por ejemplo los resumenes para los parciales.
+- Otro criterio, es seleccionar items que van a ser modificados por todos los integrantes del grupo, un ejemplo de los mismos serían las resoluciones de los trabajos prácticos evaluables.
+- Un criterio importante es la seleccion de items que sean críticos para la aprobación de la materia como lo son las resoluciones de los simulacros de parcial.
 Cabe destacar además que:
 - Los items de configuración seleccionados, que compondrán la linea base deberan tener identificadores únicos.
 - Si hay mas de una linea base,cada una debe contar con un identificador único, además de su versión.
