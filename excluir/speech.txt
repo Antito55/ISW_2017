@@ -1,0 +1,30 @@
+4 Prinicipio
+Optimizar la resiliencia
+Resiliencia: capacidad de un sistema de soportar y recuperarse, ante eventualidades o fallas que se presentan. Por ello se habla de
+Dos enfoques para diseñar sistemas:
+Se puede optimizar el tiempo medio entre fallos (MTBF) o el tiempo medio para restaurar el servicio (MTRS)
+un BMW esta optimizado para MTBF porque la falla es rara pero cuando ocurre cuesta mucho 
+un Jeep en contrapartida es MTRS porque es mas propenso a romperse pero es posible desarmarlo y volverlo a montar en cuatro minutos.
+
+Se deberia buscar que los sistemas esten optimizados para MTRS es decir, que puedan volver a un estado de linea base en un tiempo predecible, no solo para cuando un despliegue no funciona correctamente sino como parte de una estretategia de recuperacion ante desastres
+
+Ejemplo: Netflix cuando movio su infraestructura a Amazon Web Sevices, construir para la resilencia se volvio tan importante que los desarrolladores crearon un sistema "Chaos Monkey", el cual mataba partes de la infraestructura aleatoriamente para verificar si el sistema funcionaba efectivamente a medida que se desagradaba
+
+El elemento mas importante en la creacion de sistemas resilientes es el humano, por ello es que el movimiento DevOps se centra en la cultura, cuando un servicio se cae es necesario que todos sepan lo procedimientos seguir para diagnosticar el problema y conseguir ponerlo arriba de nuevo, es por ello que la formacion y la colaboracion son claves.
+
+
+Uno de los conceptos introducidos por ITIL es la remediación , definida como "recuperación a un estado conocido después de un cambio o liberación fallido". Los patrones y prácticas descritos aquí proporcionan una manera de remediar de una manera de bajo riesgo-tal vez cambiando una configuración de enrutador o desactivando una característica problemática- sin recurrir a la reversión a una versión anterior de su sistema.
+
+
+
+Estas tecnicas vienen con un costo de desarrollo añadido y requieren una planificacion inicial, entonces es necesario reducir los lotes para obtener una retroalimentacion mas rapida de los beneficios de cambiar el proceso de entrega lo que incrementa la motivacion
+
+Estas practicas dependen de tener buenas base: monitoreo eficaz, administración de configuración completa, una canalización de despliegue y un proceso de despliegue automatizado.
+
+Se deben crear servicios mas estables y confiables, construyendo la resiliencia en los sistemas y trabajando para minimizar y mitigar el riesgo en cada cambio individual.
+
+MTBF VS MTRS (BMW JEEP)
+MONKEY Netflix
+HUMANO
+REMEDIACION
+FIN
